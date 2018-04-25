@@ -19,3 +19,4 @@ public interface IDogfightModel {
 	public void setMobilesHavesMoved();
 	
 }
+
