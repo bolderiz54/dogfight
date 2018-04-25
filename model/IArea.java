@@ -9,4 +9,3 @@ public interface IArea {
 	public Image getImage();
 	
 }
-
