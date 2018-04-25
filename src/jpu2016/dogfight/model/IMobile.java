@@ -7,7 +7,7 @@ public interface IMobile {
 
 	public Direction getDirection();
 	
-	public void setDirection();
+	public void setDirection(Direction direction);
 	
 	public Point getPosition();
 	
@@ -27,7 +27,7 @@ public interface IMobile {
 	
 	public boolean isPlayer(int player);
 	
-	public void setDogfightModel(IDogfightModel dogflightModel);
+	public void setDogfightModel(DogfightModel dogfightModel);
 	
 	public boolean hit();
 	
