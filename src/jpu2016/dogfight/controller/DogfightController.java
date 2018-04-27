@@ -1,6 +1,7 @@
 package jpu2016.dogfight.controller;
 
 import jpu2016.dogfight.model.IDogfightModel;
+import jpu2016.dogfight.view.IViewSystem;
 
 public class DogfightController implements IOrderPerformer{
 	
@@ -27,6 +28,12 @@ public class DogfightController implements IOrderPerformer{
 	}
 	
 	private void gameLoop() {
+		
+	}
+
+	@Override
+	public void OrderPerform(UserOrder userOrder) {
+		// TODO Auto-generated method stub
 		
 	}
 	
